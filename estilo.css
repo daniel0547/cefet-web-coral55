@@ -5,24 +5,39 @@ body{
     margin-top: 0px;
     margin-bot: 0px;
 }
-#cabecalho{
+header{
     margin-left: 154px;
     padding-top: 50px;
 }
-h1{
+header h1{
     font-family: Ravie;
     color: #e90c0c;
     font-size: 36px;
     margin:0px;
 }
+header h2{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #333;
+    font-size: 24px;
+	text-align:right;
+	margin-right: 50px;
+}
+header h2 em{
+    color: #d027aa;
+	font-style: normal;
+}
 
-#recipiente {
+main {
     background: linear-gradient(#f6f1b2, #4599b2);
-    width: 800px;
-    top: 0px;
-    bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+	width: 800px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	
 }
 
 #cardapio{
@@ -31,11 +46,31 @@ h1{
     position: relative;
     width: 646px;
 }
+#cardapio h3{
+	margin-left:10px;
+	font-family: verdana;
+    font-size: 18px;
+	color: #333;
+    font-weight: bold;
+}
+#cardapio ul{
+	margin-bottom:0px;
+	list-style-type: none;
+	font-family: verdana;
+    font-size: 14px;
+	color: #333;
+}
+#cardapio ul li span{
+	float:right;
+	margin-right: 20px;
+}
 
 #lateral{
     position: absolute;
     top: 0px;
     bottom: 0px;
+	margin-bottom: 0px;
+	width: 154px;
 }
 
 #lateral h2{
@@ -44,15 +79,43 @@ h1{
     font-size: 33px;
     font-weight: bold;
     color: #333;
+	position: relative;
+	margin-bottom: 70px;
+	margin-top: 140px;
 }
 
-#ticket {
+aside {
   position: absolute;
   top: 295px;
-  left: -100px;
+  left: -80px;
   transition: left 100ms ease-out; /* propriedade, duração, interpolação */
 }
 
-#ticket:hover {
+aside:hover {
   left: 0;
 }
+
+.siri{
+    margin-top: 7px;
+    margin-left: -10px;
+}
+.peixe{
+    margin-top: 14px;
+    margin-left: -44px;
+}
+.bolhas{
+    margin-right: 20px;
+}
+footer{
+	padding-top: 46px;
+	padding-bottom: 25px;
+	margin-top:0px;
+	text-align: right;
+	margin-left: 154px;
+	position: relative;
+	width: 646px;
+}
+footer img{
+	margin-right: 15px;
+}
+
