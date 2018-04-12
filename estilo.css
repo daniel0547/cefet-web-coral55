@@ -45,9 +45,11 @@ main {
     margin-left: 154px;
     position: relative;
     width: 646px;
+	padding-bottom:100px;
 }
 #cardapio h3{
-	margin-left:10px;
+	padding-top:10px;
+	margin-left:20px;
 	font-family: verdana;
     font-size: 18px;
 	color: #333;
@@ -59,6 +61,9 @@ main {
 	font-family: verdana;
     font-size: 14px;
 	color: #333;
+}
+#cardapio ul li{
+	margin-left:-20px;
 }
 #cardapio ul li span{
 	float:right;
